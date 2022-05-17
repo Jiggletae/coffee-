@@ -1,116 +1,17 @@
-.hero{
+.i{
+  display: flex;
   height: 100vh;
-  width: 100%;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  background-color: rgba(0, 0, 0, 0.218);
-}
-
-.logo{
-  font-size: 50px;
-  color: #4b3621;
-  margin-left: 20px;
-  cursor: pointer;
-}
-
-.logo:hover{
-  color: lightgrey;
-  transition: .3s;
-}
-
-.logo span:hover{
-  color: #4b3621;
-  transition: .3s;
-}
-
-
-nav ul li{
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 20px;
-}
-
-nav ul li a{
-  text-decoration: none;
-  font-weight: bold;
-  color: lightgray;
-}
-
-nav ul li a:hover{
-  color: #4b3621;
-  transition: .3s;
-}
-
-.right{
-  font-size: 25px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.fa-solid{
-  padding: 10px;
-  color: lightgray;
-  cursor: pointer;
-}
-
-.fa-solid:hover{
-  color: #4b3621;
-  transition: .3s;
-}
-
-section{
-  padding-top: 100px;
-  margin: 0;
-  padding-left: 10px;
-}
-
-.info{
-  margin: 0;
-}
-
-.title{
-  font-weight: bold;
-  font-size: 30px;
-  color: lightgray;
-  margin-top: 50px;
-}
-
-.minititle{
-  font-size: 15px;
-  color: #4b3621;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-}
-
-.desc{
-  font-size: 10px;
-  color: lightgrey;
-  margin-bottom: 50px;
-}
-
-.iContainer{
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
+.iLwrapper{
+  padding: 50px;
 
 }
 
-.imgcon{
-  display: flex;
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  object-position: 80% 100%;
+.ileft{
+  flex: 1;
 }
 
-.hcom{
-  font-size: 25px;
-  margin-top: 5px;
+.iright{
+  flex: 1;
 }
