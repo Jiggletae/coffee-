@@ -15,3 +15,14 @@
 .iright{
   flex: 1;
 }
+
+.ihead2{
+  font-weight: 200;
+  font-size: 25px;
+  color: #5d8aa8;
+}
+
+.idesc{
+  font-size: 15px;
+  color: darkgray;
+}
