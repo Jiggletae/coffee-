@@ -1,3 +1,13 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+  background-color:  #ddc686;
+  color: black
+}
+
+
 .nav-container{
     position: fixed;
     left: 0;
@@ -62,7 +72,7 @@
 
 .nav-button{
  background-color: black;
- font-weight: bold;
+ font-weight: 100;
  padding: 10px 15px;
  border: 2px solid #ddc686;
  cursor: pointer;
@@ -79,12 +89,6 @@ a{
   color: white;
 }
 
-
-.nav-button:hover{
-  background-color:  #ddc686;
-  color: black
-}
-
 a:hover{
   color:#ddc686;
   text-decoration: none;
@@ -94,6 +98,7 @@ a:hover{
   display: flex;
   min-height: 500px;
   background-color: black;
+  
 }
 
 .hero-left{
@@ -103,7 +108,7 @@ a:hover{
   justify-content: center;
   flex-direction: column;
   color: white;
-  width: 50%;
+ width: 50%;
   
 }
 .hero-title{
@@ -112,34 +117,67 @@ a:hover{
   display: flex;
   font-size: 38px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .hero-text{
   margin-top: 0;
   align-items: center;
   justify-content: center;
-  margin-left: 20px;
   text-align: center;
-  font-weight: normal;
-  gap: 5px;
+  width: 50%;
+  font-size: 18px;
+  font-weight:100;
 }
 
 .hero-lbtn{
   background-color: black;
-  font-weight: bold;
+  font-weight: 100;
   padding: 10px 15px;
   border: 2px solid #ddc686;
   cursor: pointer;
   color: #ddc686;
   border-radius: 10px;
-  margin-top: 10px;
-}
-.hero-lbtn:hover{
-  background-color:  #ddc686;
-  color: black
+  margin-top: 20px;
 }
 
 .hero-right{
-  flex: 1;
+  flex: 1; 
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 50%;
 }
 
+.hero-Rtitle{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-Rtext{
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  width: 50%;
+  font-size: 18px;
+  font-weight:100;
+}
+
+.hero-Rbtn{
+  background-color: black;
+  font-weight: 100;
+  padding: 10px 15px;
+  border: 2px solid #ddc686;
+  cursor: pointer;
+  color: #ddc686;
+  border-radius: 10px;
+  margin-top: 20px;
+}
