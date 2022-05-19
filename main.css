@@ -8,13 +8,19 @@
     border-bottom: 1px solid #ddc686;
     background-color: black;
     border-bottom: 3px solid #ddc686;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .nav-left{
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
 }
 
 .nav-title{
@@ -23,7 +29,7 @@
   font-weight: bold;
   font-size: 30px;
   margin-left: 20px;
-  position: absolute;
+  margin-bottom: 20px;
 }
 
 .nav-right{
@@ -46,22 +52,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .nav-button{
  background-color: black;
- font-size: 20px;
- padding: 15px;
- border: 1px solid #ddc686;
+ font-weight: bold;
+ padding: 10px 15px;
+ border: 2px solid #ddc686;
  cursor: pointer;
  color: #ddc686;
  display: flex;
  align-items: center;
  justify-content: center;
- top: 0;
- right: 0;
- bottom: 0;
+ position: relative;
+ border-radius: 10px;
 }
 
 a{
