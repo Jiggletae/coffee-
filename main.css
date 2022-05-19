@@ -13,6 +13,8 @@
 .nav-left{
   display: flex;
   align-items: center;
+  margin-top: 20px;
+  position: relative;
 }
 
 .nav-title{
@@ -21,12 +23,13 @@
   font-weight: bold;
   font-size: 30px;
   margin-left: 20px;
+  position: absolute;
 }
 
 .nav-right{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .nav-list{
@@ -42,10 +45,8 @@
 .nav-btn{
   display: flex;
   align-items: center;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  justify-content: center;
+  display: none;
 }
 
 .nav-button{
@@ -55,10 +56,12 @@
  border: 1px solid #ddc686;
  cursor: pointer;
  color: #ddc686;
- position: relative;
- justify-content: center;
+ display: flex;
  align-items: center;
- display: none;
+ justify-content: center;
+ top: 0;
+ right: 0;
+ bottom: 0;
 }
 
 a{
