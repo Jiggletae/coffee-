@@ -1,5 +1,7 @@
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 button:hover{
@@ -10,12 +12,11 @@ button:hover{
 
 .nav-container{
     position: fixed;
-    left: 0;
     top: 0;
     right: 0;
+    left: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ddc686;
     background-color: black;
     border-bottom: 3px solid #ddc686;
     align-items: center;
@@ -27,10 +28,10 @@ button:hover{
   display: flex;
   align-items: center;
   position: absolute;
+  justify-content: center;
   top: 0;
   left: 0;
   bottom: 0;
-  justify-content: center;
 }
 
 .nav-title{
@@ -55,6 +56,7 @@ button:hover{
   gap: 10px;
   align-items: center;
   justify-content: center;
+  font-weight: 700;
 
 }
 
@@ -96,11 +98,13 @@ a:hover{
 
 .hero{
   display: flex;
-  min-height: 500px;
   background-color: black;
   align-items: center;
+  min-height: 500px;
   justify-items: center;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-left{
