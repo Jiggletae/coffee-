@@ -98,17 +98,18 @@ a:hover{
   display: flex;
   min-height: 500px;
   background-color: black;
-  
+  align-items: center;
+  justify-items: center;
+  color: white;
 }
 
 .hero-left{
   flex: 1;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-items: center;
   flex-direction: column;
-  color: white;
- width: 50%;
+  
   
 }
 .hero-title{
@@ -125,9 +126,9 @@ a:hover{
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 50%;
   font-size: 18px;
   font-weight:100;
+  width: 50%;
 }
 
 .hero-lbtn{
@@ -145,10 +146,8 @@ a:hover{
   flex: 1; 
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-items: center;
   flex-direction: column;
-  color: white;
-  width: 50%;
 }
 
 .hero-Rtitle{
@@ -166,9 +165,9 @@ a:hover{
   justify-content: center;
   text-align: center;
   font-weight: normal;
-  width: 50%;
   font-size: 18px;
   font-weight:100;
+  width: 50%;
 }
 
 .hero-Rbtn{
