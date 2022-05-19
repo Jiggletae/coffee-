@@ -90,3 +90,56 @@ a:hover{
   text-decoration: none;
 }
 
+.hero{
+  display: flex;
+  min-height: 500px;
+  background-color: black;
+}
+
+.hero-left{
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  
+}
+.hero-title{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.hero-text{
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  text-align: center;
+  font-weight: normal;
+  gap: 5px;
+}
+
+.hero-lbtn{
+  background-color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px solid #ddc686;
+  cursor: pointer;
+  color: #ddc686;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.hero-lbtn:hover{
+  background-color:  #ddc686;
+  color: black
+}
+
+.hero-right{
+  flex: 1;
+}
+
